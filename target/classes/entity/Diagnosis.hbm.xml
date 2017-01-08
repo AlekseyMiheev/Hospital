@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="entity">
+    <class name="Diagnosis" table="diagnosis" >
+        <id name="id" type="integer">
+            <column name="diagnosisId" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="description" type="string">
+            <column name="description" />
+        </property>
+
+        <set name="inspections" table="inspections" fetch="select">
+            <key>
+                <column name="diagnosisId" not-null="true"></column>
+            </key>
+            <one-to-many class="Inspection"/>
+        </set>
+
+    </class>
+
+</hibernate-mapping>

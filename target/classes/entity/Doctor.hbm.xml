@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="entity">
+    <class name="Doctor" table="doctors" >
+        <id name="doctorId" type="integer">
+            <column name="doctorId" />
+            <generator class="identity" />
+        </id>
+
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+
+        <many-to-one name="time" class="WorkingTime">
+            <column name="workingTimeId" not-null="true"></column>
+        </many-to-one>
+
+        <many-to-one name="speciality" class="Speciality">
+            <column name="specialityId" not-null="true"></column>
+        </many-to-one>
+
+        <many-to-one name="department" class="Department">
+            <column name="departmentId" not-null="true"></column>
+        </many-to-one>
+
+    </class>
+
+</hibernate-mapping>

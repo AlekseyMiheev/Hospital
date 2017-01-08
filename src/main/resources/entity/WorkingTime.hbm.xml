@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="entity">
+
+    <class name="WorkingTime" table="workingTime" >
+
+        <id name="id" type="integer">
+            <column name="timeId" />
+            <generator class="identity" />
+        </id>
+
+        <property name="time" type="string">
+            <column name="time" />
+        </property>
+
+        <set name="doctors" table="doctors" cascade="delete-orphan" fetch="select">
+            <key>
+                <column name="workingTimeId" not-null="true"></column>
+            </key>
+            <one-to-many class="Doctor"/>
+        </set>
+
+    </class>
+
+</hibernate-mapping>

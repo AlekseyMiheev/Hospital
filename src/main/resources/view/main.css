@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Oct 19, 2015, 2:15:13 PM
+    Author     : aaa
+*/
+
+.HBox {
+    -fx-background-color: linear-gradient(#d0d0d0 , #f3f3f3);
+}
+
+.VBox {
+    -fx-background-color: cornsilk;
+}
+
+.jfx-tab-pane .tab-header-area .jfx-rippler{
+    -fx-rippler-fill : #e8eaf6;
+}
+.tab-header-background{
+    -fx-background-color: #6E86D6;
+}
+.jfx-tab-pane .tab-header-area .tab-selected-line{
+    -fx-stroke : #FFB000;
+}
+
+.jfx-list-view {
+	-fx-background-insets: 0;
+  	-fx-cell-horizontal-margin: 0.0;
+  	-fx-cell-vertical-margin: 5.0;
+  	-fx-vertical-gap : 10;
+  	-fx-expanded : true;
+}
+
+.jfx-list-view .jfx-list-cell {
+    -fx-background-color: #8fabfc;
+  	-fx-text-fill: WHITE;
+}
+
+.jfx-list-view .jfx-list-cell:selected {
+	-fx-background-color: #4d66cc;
+
+}
+
+.jfx-list-view .jfx-list-cell:hover {
+	-fx-background-color: #3f57ba;
+}
+
+.jfx-text-field .errorLabel {
+    -fx-text-fill : #D34336;
+    -fx-font-size: 0.75em;
+}

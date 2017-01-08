@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.view.client.ViewClientController">
+    <children>
+      <TableView fx:id="clientTable" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+        <columns>
+          <TableColumn fx:id="nameCol" prefWidth="100.0" text="Name" />
+          <TableColumn fx:id="birthdayCol" prefWidth="100.0" text="Birthday" />
+          <TableColumn fx:id="passportCol" prefWidth="100.0" text="passportData" />
+          <TableColumn fx:id="addressCol" prefWidth="100.0" text="Address" />
+        </columns>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TableView>
+        <HBox alignment="CENTER_LEFT" spacing="10.0" style="-fx-background-color: white;" styleClass="VBox" stylesheets="@../main.css" VBox.vgrow="NEVER">
+            <children>
+                <JFXButton buttonType="RAISED" onAction="#search" style="-fx-background-color: #1976D2;" text="Search" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </JFXButton>
+                <JFXTextField fx:id="search_info" promptText="Input name" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXTextField>
+            </children>
+            <padding>
+                <Insets bottom="10.0" left="20.0" top="10.0" />
+            </padding>
+         <effect>
+            <DropShadow />
+         </effect>
+        </HBox>
+    </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</VBox>

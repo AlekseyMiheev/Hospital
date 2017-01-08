@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.view.inspection.ViewInspectionDetailsController">
+   <children>
+      <StackPane fx:id="root" VBox.vgrow="ALWAYS">
+         <children>
+            <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="10.0" style="-fx-background-color: white;" StackPane.alignment="CENTER">
+               <padding>
+                  <Insets bottom="10.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <children>
+                  <VBox alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: white;">
+                     <children>
+                        <Label fx:id="header" text="Inspection №">
+                           <font>
+                              <Font name="Roboto Medium Italic" size="22.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="headerDate" text="Date">
+                           <font>
+                              <Font name="Roboto Medium Italic" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </VBox>
+                  <VBox spacing="10.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                     <children>
+                        <VBox>
+                           <children>
+                              <Label text="Doctor:">
+                                 <font>
+                                    <Font name="Roboto" size="20.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER_LEFT" fillHeight="false" spacing="20.0" VBox.vgrow="ALWAYS">
+                                 <padding>
+                                    <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                                 </padding>
+                                 <children>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <Label text="Name">
+                                             <font>
+                                                <Font name="Roboto Medium Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="doctorName" text="Name">
+                                             <font>
+                                                <Font name="Roboto Light Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <Label text="Speciality">
+                                             <font>
+                                                <Font name="Roboto Medium Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="doctorSpeciality" text="Speciality">
+                                             <font>
+                                                <Font name="Roboto Light Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <Label text="Department">
+                                             <font>
+                                                <Font name="Roboto Medium Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="doctorDepartment" text="Department">
+                                             <font>
+                                                <Font name="Roboto Light Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Label text="Client:">
+                                 <font>
+                                    <Font name="Roboto" size="20.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER_LEFT" fillHeight="false" spacing="20.0" VBox.vgrow="ALWAYS">
+                                 <children>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <Label text="Name">
+                                             <font>
+                                                <Font name="Roboto Medium Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="clientName" text="Name">
+                                             <font>
+                                                <Font name="Roboto Light Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <Label text="Date of birth">
+                                             <font>
+                                                <Font name="Roboto Medium Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="clientDate" text="Date of birth">
+                                             <font>
+                                                <Font name="Roboto Light Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <Label text="Passport data">
+                                             <font>
+                                                <Font name="Roboto Medium Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="clientPassport" text="Passport data">
+                                             <font>
+                                                <Font name="Roboto Light Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <Label text="Address">
+                                             <font>
+                                                <Font name="Roboto Medium Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="clientAddress" text="Address">
+                                             <font>
+                                                <Font name="Roboto Light Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+                  <VBox spacing="10.0" style="-fx-background-color: white;">
+                     <children>
+                        <HBox alignment="TOP_CENTER" fillHeight="false" spacing="10.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label text="Healing plan">
+                                 <font>
+                                    <Font name="Roboto Medium Italic" size="22.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </HBox>
+                        <VBox>
+                           <children>
+                              <Label text="Diagnosis: ">
+                                 <font>
+                                    <Font name="Roboto" size="20.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER_LEFT" fillHeight="false" spacing="20.0" VBox.vgrow="ALWAYS">
+                                 <children>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <Label text="Name">
+                                             <font>
+                                                <Font name="Roboto Medium Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="diagnosisName" text="Name">
+                                             <font>
+                                                <Font name="Roboto Light Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <Label text="Description">
+                                             <font>
+                                                <Font name="Roboto Medium Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="diagnosisDescription" text="Description">
+                                             <font>
+                                                <Font name="Roboto Light Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Label text="Procedure:">
+                                 <font>
+                                    <Font name="Roboto" size="20.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER_LEFT" fillHeight="false" spacing="20.0" VBox.vgrow="ALWAYS">
+                                 <children>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <Label text="Name">
+                                             <font>
+                                                <Font name="Roboto Medium Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="procedureName" text="Name">
+                                             <font>
+                                                <Font name="Roboto Light Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <Label text="Description">
+                                             <font>
+                                                <Font name="Roboto Medium Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="procedureDescription" text="Description">
+                                             <font>
+                                                <Font name="Roboto Light Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <Label text="Price ($)">
+                                             <font>
+                                                <Font name="Roboto Medium Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="procedurePrice" text="Price">
+                                             <font>
+                                                <Font name="Roboto Light Italic" size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </padding>
+                  </VBox>
+                  <VBox spacing="10.0" style="-fx-background-color: white;">
+                     <children>
+                        <HBox alignment="TOP_CENTER" fillHeight="false" spacing="10.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label text="Advices">
+                                 <font>
+                                    <Font name="Roboto Medium Italic" size="22.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </HBox>
+                        <VBox>
+                           <children>
+                              <Label fx:id="advices" text="Advices">
+                                 <font>
+                                    <Font name="Roboto" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </VBox>
+                  <JFXButton buttonType="RAISED" onAction="#saveToImage" style="-fx-background-color: #1976D2;" text="Save" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Bold" size="18.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </VBox>
+            <JFXDialog fx:id="dialog">
+               <JFXDialogLayout>
+                  <heading>
+                     <Label>Saving inspection details
+                        <font>
+                           <Font name="Roboto Bold" size="18.0" />
+                        </font>
+                     </Label>
+                  </heading>
+                  <body>
+                     <Label fx:id="dialogContainer">There was an error while saving file
+                        <font>
+                           <Font name="Roboto" size="16.0" />
+                        </font>
+                     </Label>
+                  </body>
+                  <actions>
+                     <JFXButton fx:id="btnAccept" buttonType="RAISED" onAction="#accept" style="-fx-background-color: #d50000;" text="OK" textFill="WHITE">
+                        <font>
+                           <Font name="Roboto" size="14.0" />
+                        </font>
+                     </JFXButton>
+      
+                  </actions>
+               </JFXDialogLayout>
+            </JFXDialog>
+         </children>
+      </StackPane>
+   </children>
+</VBox>

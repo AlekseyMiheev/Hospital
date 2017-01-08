@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="entity">
+
+    <class name="HealingPlan" table="healingPlans" >
+
+        <id name="id" type="integer">
+            <column name="healingPlanId" />
+            <generator class="identity" />
+        </id>
+
+        <many-to-one name="procedure" class="Procedure">
+            <column name="procedureId" not-null="true"></column>
+        </many-to-one>
+
+        <property name="advices" type="string">
+            <column name="advices" />
+        </property>
+
+        <set name="inspections" table="inspections" fetch="select">
+            <key>
+                <column name="healingPlanId" not-null="true"></column>
+            </key>
+            <one-to-many class="Inspection"/>
+        </set>
+    </class>
+
+</hibernate-mapping>

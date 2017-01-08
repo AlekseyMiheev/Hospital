@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+
+<VBox alignment="TOP_CENTER" spacing="10.0" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.view.inspection.ViewInspectionController">
+    <children>
+      <TableView fx:id="inspectionTable" VBox.vgrow="ALWAYS">
+        <columns>
+          <TableColumn fx:id="doctorCol" prefWidth="75.0" text="Doctor" />
+          <TableColumn fx:id="clientCol" prefWidth="75.0" text="Client" />
+            <TableColumn fx:id="diagnosisCol" prefWidth="75.0" text="Diagnosis" />
+            <TableColumn fx:id="planCol" prefWidth="101.0" text="Healing plan" />
+            <TableColumn fx:id="descrCol" prefWidth="79.0" text="Advices" />
+            <TableColumn fx:id="dateCol" prefWidth="79.0" text="Date" />
+        </columns>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TableView>
+        <HBox alignment="CENTER_LEFT" spacing="10.0" style="-fx-background-color: white;" styleClass="VBox" stylesheets="@../main.css" VBox.vgrow="NEVER">
+            <children>
+                <JFXButton buttonType="RAISED" onAction="#search" style="-fx-background-color: #1976D2;" text="Search" textFill="WHITE">
+                    <font>
+                        <Font name="Roboto Bold" size="16.0" />
+                    </font>
+                </JFXButton>
+                <JFXTextField fx:id="search_info" maxWidth="1.7976931348623157E308" minWidth="212.0" promptText="Input name" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font name="Roboto" size="16.0" />
+                    </font>
+                </JFXTextField>
+            </children>
+            <padding>
+                <Insets bottom="10.0" left="20.0" top="10.0" />
+            </padding>
+         <effect>
+            <DropShadow />
+         </effect>
+        </HBox>
+    </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</VBox>

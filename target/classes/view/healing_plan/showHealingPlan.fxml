@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.view.ViewHealingPlanController">
+   <children>
+      <TableView fx:id="planTable" prefHeight="200.0" prefWidth="200.0">
+         <columns>
+            <TableColumn fx:id="procedureCol" prefWidth="75.0" text="Procedure" />
+            <TableColumn fx:id="descriptionCol" prefWidth="75.0" text="Advices" />
+         </columns>
+      </TableView>
+      <HBox alignment="CENTER_LEFT" spacing="10.0" style="-fx-background-color: linear-gradient(#f3f3f3, #f7f7f7);" styleClass="VBox" stylesheets="@../main.css" VBox.vgrow="NEVER">
+         <children>
+            <JFXButton buttonType="RAISED" onAction="#search" style="-fx-background-color: #1976D2;" text="Пошук" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXTextField fx:id="search_info" promptText="Введіть назву процедури">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextField>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="20.0" top="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

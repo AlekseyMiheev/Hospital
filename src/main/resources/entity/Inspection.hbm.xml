@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="entity">
+
+    <class name="Inspection" table="inspections" >
+
+        <id name="id" type="integer">
+            <column name="inspectionId" />
+            <generator class="identity" />
+        </id>
+
+        <many-to-one name="doctor" class="Doctor">
+            <column name="doctorId" not-null="true"></column>
+        </many-to-one>
+
+        <many-to-one name="client" class="Client">
+            <column name="clientId" not-null="true"></column>
+        </many-to-one>
+
+        <many-to-one name="diagnosis" class="Diagnosis">
+            <column name="diagnosisId" not-null="true"></column>
+        </many-to-one>
+
+        <many-to-one name="healingPlan" class="HealingPlan">
+            <column name="healingPlanId" not-null="true"></column>
+        </many-to-one>
+
+        <property name="description" type="string">
+            <column name="description" />
+        </property>
+
+        <property name="date" type="string">
+            <column name="date" />
+        </property>
+
+    </class>
+
+</hibernate-mapping>
