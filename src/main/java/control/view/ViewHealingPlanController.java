@@ -3,7 +3,6 @@ package control.view;
 import com.jfoenix.controls.JFXTextField;
 import entity.HealingPlan;
 import entity.Procedure;
-import entity.Speciality;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -12,6 +11,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import util.DBControl;
+import util.Searcher;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -31,34 +31,22 @@ public class ViewHealingPlanController implements Initializable {
     @FXML
     TableColumn<HealingPlan, Procedure> procedureCol;
     @FXML
-    TableColumn<HealingPlan, String> descriptionCol;
+    TableColumn<HealingPlan, String> advicesCol;
 
     @FXML
     JFXTextField search_info;
     private ObservableList<HealingPlan> healingPlan;
 
     public void initialize(URL url, ResourceBundle rb) {
-        procedureCol.setCellValueFactory(new PropertyValueFactory<HealingPlan, Procedure>("procedure"));
-        descriptionCol.setCellValueFactory(new PropertyValueFactory<HealingPlan, String>("advices"));
+        procedureCol.setCellValueFactory(new PropertyValueFactory<>("procedure"));
+        advicesCol.setCellValueFactory(new PropertyValueFactory<>("advices"));
         healingPlan = FXCollections.observableArrayList(DBControl.healingPlan);
         planTable.setItems(healingPlan);
     }
 
     public void search() {
-        List<HealingPlan> searchResult = new ArrayList<HealingPlan>();
-        if (search_info.getText().length() > 0) {
-            for (HealingPlan c : DBControl.healingPlan) {
-                if (c.getProcedure().getName().equals(search_info.getText())) {
-                    searchResult.add(c);
-                }
-            }
-            healingPlan = FXCollections.observableArrayList(searchResult);
-            planTable.setItems(healingPlan);
-        } else {
-            healingPlan = FXCollections.observableArrayList(DBControl.healingPlan);
-            planTable.setItems(healingPlan);
-        }
+        List<HealingPlan> searchResult = Searcher.searchHP(search_info.getText());
+        healingPlan = FXCollections.observableArrayList(searchResult);
+        planTable.setItems(healingPlan);
     }
-
-    //TODO: save to file
 }

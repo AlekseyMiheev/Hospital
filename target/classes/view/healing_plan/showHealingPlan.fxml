@@ -12,7 +12,7 @@
       <TableView fx:id="planTable" prefHeight="200.0" prefWidth="200.0">
          <columns>
             <TableColumn fx:id="procedureCol" prefWidth="75.0" text="Procedure" />
-            <TableColumn fx:id="descriptionCol" prefWidth="75.0" text="Advices" />
+            <TableColumn fx:id="advicesCol" prefWidth="75.0" text="Advices" />
          </columns>
       </TableView>
       <HBox alignment="CENTER_LEFT" spacing="10.0" style="-fx-background-color: linear-gradient(#f3f3f3, #f7f7f7);" styleClass="VBox" stylesheets="@../main.css" VBox.vgrow="NEVER">

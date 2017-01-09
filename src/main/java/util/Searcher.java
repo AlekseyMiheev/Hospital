@@ -100,4 +100,19 @@ public abstract class Searcher {
         return searchResult;
     }
 
+    public static List<HealingPlan> searchHP(String search_info) {
+        List<HealingPlan> searchResult = new ArrayList<>();
+        if (search_info.length() > 0) {
+            for (HealingPlan item : DBControl.healingPlan) {
+                if (item.getProcedure().getName().contains(search_info)) {
+                    searchResult.add(item);
+                }
+            }
+        } else {
+            searchResult = DBControl.healingPlan;
+        }
+
+        return searchResult;
+    }
+
 }
