@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
 <?import com.jfoenix.controls.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
@@ -7,30 +8,39 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="TOP_CENTER" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.view.ViewHealingPlanController">
+<VBox alignment="TOP_CENTER" prefHeight="333.0" prefWidth="394.0" spacing="10.0" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.view.ViewHealingPlanController">
    <children>
-      <TableView fx:id="planTable" prefHeight="200.0" prefWidth="200.0">
+      <TableView fx:id="planTable" VBox.vgrow="ALWAYS">
          <columns>
             <TableColumn fx:id="procedureCol" prefWidth="75.0" text="Procedure" />
             <TableColumn fx:id="advicesCol" prefWidth="75.0" text="Advices" />
          </columns>
+         <effect>
+            <DropShadow />
+         </effect>
       </TableView>
-      <HBox alignment="CENTER_LEFT" spacing="10.0" style="-fx-background-color: linear-gradient(#f3f3f3, #f7f7f7);" styleClass="VBox" stylesheets="@../main.css" VBox.vgrow="NEVER">
+      <HBox alignment="CENTER_LEFT" spacing="10.0" style="-fx-background-color: white;" styleClass="VBox" VBox.vgrow="ALWAYS">
          <children>
-            <JFXButton buttonType="RAISED" onAction="#search" style="-fx-background-color: #1976D2;" text="Пошук" textFill="WHITE">
+            <JFXButton buttonType="RAISED" onAction="#search" style="-fx-background-color: #1976D2;" text="Search" textFill="WHITE">
                <font>
-                  <Font name="System Bold" size="14.0" />
+                  <Font name="Roboto Bold" size="16.0" />
                </font>
             </JFXButton>
-            <JFXTextField fx:id="search_info" promptText="Введіть назву процедури">
+            <JFXTextField fx:id="search_info" maxWidth="1.7976931348623157E308" minWidth="205.0" promptText="Input department" HBox.hgrow="ALWAYS">
                <font>
-                  <Font size="14.0" />
+                  <Font name="Roboto" size="16.0" />
                </font>
             </JFXTextField>
          </children>
          <padding>
-            <Insets bottom="10.0" left="20.0" top="10.0" />
+            <Insets bottom="5.0" left="5.0" top="5.0" />
          </padding>
+         <effect>
+            <DropShadow />
+         </effect>
       </HBox>
    </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
 </VBox>
