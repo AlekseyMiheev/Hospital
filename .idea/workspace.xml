@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="89e6f37e-9dab-45a2-8a45-bab34396c749" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/department/showDepartmentInfo.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/department/showDepartmentInfo.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/client/showClientInfo.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/client/showClientInfo.fxml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,8 +70,8 @@
       <file leaf-file-name="showClientInfo.fxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/view/client/showClientInfo.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="130">
+              <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -104,7 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/view/main/doctors.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/view/insert_layouts/addClient.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/view/insert_layouts/addInspection.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/control/insert/AddClientController.java" />
@@ -155,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/view/main.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/view/doctor/showDoctorInfo.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/view/department/showDepartmentInfo.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/view/client/showClientInfo.fxml" />
       </list>
     </option>
   </component>
@@ -1401,8 +1401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/view/client/showClientInfo.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="130">
+          <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
           <folding />
         </state>
       </provider>
