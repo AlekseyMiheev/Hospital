@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.text.*?>
@@ -14,7 +15,7 @@
          <children>
             <Label alignment="TOP_CENTER" text="HOSPITAL">
                <font>
-                  <Font name="Roboto" size="41.0" />
+                  <Font name="Roboto" size="46.0" />
                </font>
                <padding>
                   <Insets left="5.0" right="5.0" />
@@ -35,13 +36,25 @@
          <children>
              <Label alignment="TOP_CENTER" text="Loading data">
                <font>
-                  <Font name="Roboto Light Italic" size="26.0" />
+                  <Font name="Roboto Light Italic" size="32.0" />
                </font>
                <padding>
                   <Insets left="5.0" right="5.0" />
                </padding>
              </Label>
-             <ProgressIndicator prefHeight="53.0" prefWidth="222.0" />
+            <StackPane>
+               <children>
+                   <ProgressIndicator blendMode="RED" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="130.0" stylesheets="@main.css">
+                     <effect>
+                        <GaussianBlur />
+                     </effect></ProgressIndicator>
+                  <ImageView fitHeight="85.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
          </children>
          <padding>
             <Insets bottom="10.0" top="10.0" />

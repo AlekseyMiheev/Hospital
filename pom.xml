@@ -34,7 +34,11 @@
             <version>3.15</version>
         </dependency>
 
-
+        <dependency>
+            <groupId>com.jfoenix</groupId>
+            <artifactId>jfoenix</artifactId>
+            <version>1.0.0</version>
+        </dependency>
 
     </dependencies>
 
