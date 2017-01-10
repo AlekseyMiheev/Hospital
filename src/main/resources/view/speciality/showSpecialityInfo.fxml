@@ -8,6 +8,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
+<?import javafx.scene.image.ImageView?>
+
+<?import javafx.scene.image.Image?>
 <VBox alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.view.speciality.ViewSpecialityInfoController">
     <children>
         <StackPane fx:id="root" VBox.vgrow="ALWAYS">
@@ -74,6 +77,14 @@
                   <Insets bottom="5.0" />
                </padding>
                 </VBox>
+                <ImageView fitHeight="75.0" fitWidth="75.0" opacity="0.15" pickOnBounds="true" preserveRatio="true" StackPane.alignment="BOTTOM_RIGHT">
+                    <StackPane.margin>
+                        <Insets bottom="15.0" right="15.0" />
+                    </StackPane.margin>
+                    <image>
+                        <Image url="@../../images/logo.png" />
+                    </image>
+                </ImageView>
                 <JFXDialog fx:id="dialog">
                     <JFXDialogLayout>
                         <heading>
