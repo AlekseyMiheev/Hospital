@@ -49,7 +49,7 @@
             </StackPane>
              <Label alignment="TOP_CENTER" text="Loading data">
                  <font>
-                     <Font name="Roboto Light Italic" size="32.0" />
+                     <Font name="Roboto Light Italic" size="22.0" />
                  </font>
                  <padding>
                      <Insets left="5.0" right="5.0" />
