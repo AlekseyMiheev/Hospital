@@ -107,7 +107,6 @@
                                     <Font name="Roboto" size="14.0" />
                                 </font>
                             </JFXButton>
-
                         </actions>
                     </JFXDialogLayout>
                 </JFXDialog>

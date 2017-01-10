@@ -112,7 +112,7 @@
                 <DropShadow/>
             </effect>
             <children>
-                <Label alignment="CENTER" text="Created by Alexey Miheev. Logo created by @ibrandify">
+                <Label alignment="CENTER" text="Created by Alexey Miheev. Logo designed by Ibrandify - Freepik.com">
                     <font>
                         <Font name="Times New Roman Italic" size="14.0"/>
                     </font>
