@@ -75,14 +75,14 @@
                   <StackPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                      <children>
                               <VBox fx:id="dataPane" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
-                        <ImageView fitHeight="100.0" fitWidth="100.0" opacity="0.15" pickOnBounds="true" preserveRatio="true" StackPane.alignment="BOTTOM_RIGHT">
-                           <StackPane.margin>
-                              <Insets bottom="15.0" right="15.0" />
-                           </StackPane.margin>
-                           <image>
-                              <Image url="@../images/logo.png" />
-                           </image>
-                        </ImageView>
+                         <ImageView fitHeight="100.0" fitWidth="100.0" opacity="0.15" pickOnBounds="true" preserveRatio="true" StackPane.alignment="BOTTOM_RIGHT">
+                             <StackPane.margin>
+                                 <Insets bottom="15.0" right="15.0" />
+                             </StackPane.margin>
+                             <image>
+                                 <Image url="@../images/logo.png" />
+                             </image>
+                         </ImageView>
                      </children>
                   </StackPane>
                </children>
@@ -94,7 +94,7 @@
             <DropShadow />
          </effect>
          <children>
-            <Label alignment="CENTER" text="Created by Alexey Miheev">
+            <Label alignment="CENTER" text="Created by Alexey Miheev. Logo created by @ibrandify">
                <font>
                   <Font name="Times New Roman Italic" size="14.0" />
                </font>
