@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e6f37e-9dab-45a2-8a45-bab34396c749" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/images/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/images/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/main.css" afterPath="$PROJECT_DIR$/src/main/resources/view/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/main.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/main.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/main.css" afterPath="$PROJECT_DIR$/target/classes/view/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/main.fxml" afterPath="$PROJECT_DIR$/target/classes/view/main.fxml" />
     </list>
     <ignored path="Hospital.iws" />
@@ -33,8 +38,8 @@
       <file leaf-file-name="main.fxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/view/main.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+            <state relative-caret-position="357">
+              <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -1324,8 +1329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/view/main.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
           <folding />
         </state>
       </provider>
