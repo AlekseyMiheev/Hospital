@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e6f37e-9dab-45a2-8a45-bab34396c749" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jfoenix.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid1268.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid2232.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid2376.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid3688.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid3704.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid4704.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid5332.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid5404.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid5568.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid5640.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid5644.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid5684.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid5748.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hs_err_pid5868.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hospital.iml" afterPath="$PROJECT_DIR$/Hospital.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/splash_screen.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/splash_screen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/main.fxml" afterPath="$PROJECT_DIR$/target/classes/view/main.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/splash_screen.fxml" afterPath="$PROJECT_DIR$/target/classes/view/splash_screen.fxml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,24 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="splash_screen.fxml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="splash_screen.fxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/view/splash_screen.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/view/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+            <state relative-caret-position="450">
+              <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -143,8 +113,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/view/speciality/showSpecialityInfo.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/view/main.fxml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/view/splash_screen.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/view/main.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/view/splash_screen.fxml" />
       </list>
     </option>
   </component>
@@ -1287,21 +1257,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/view/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/view/splash_screen.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/view/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        <state relative-caret-position="450">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
           <folding />
         </state>
       </provider>
