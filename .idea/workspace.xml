@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e6f37e-9dab-45a2-8a45-bab34396c749" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/main.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/main.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/speciality/showSpecialityInfo.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/speciality/showSpecialityInfo.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/client/showClientInfo.fxml" afterPath="$PROJECT_DIR$/target/classes/view/client/showClientInfo.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/department/showDepartmentInfo.fxml" afterPath="$PROJECT_DIR$/target/classes/view/department/showDepartmentInfo.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/doctor/showDoctorInfo.fxml" afterPath="$PROJECT_DIR$/target/classes/view/doctor/showDoctorInfo.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/inspection/showInspectionDetails.fxml" afterPath="$PROJECT_DIR$/target/classes/view/inspection/showInspectionDetails.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/main.fxml" afterPath="$PROJECT_DIR$/target/classes/view/main.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/speciality/showSpecialityInfo.fxml" afterPath="$PROJECT_DIR$/target/classes/view/speciality/showSpecialityInfo.fxml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +38,8 @@
       <file leaf-file-name="main.fxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/view/main.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="114" column="80" selection-start-line="114" selection-start-column="80" selection-end-line="114" selection-end-column="80" />
+            <state relative-caret-position="249">
+              <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -1274,8 +1281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/view/main.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="114" column="80" selection-start-line="114" selection-start-column="80" selection-end-line="114" selection-end-column="80" />
+        <state relative-caret-position="249">
+          <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
           <folding />
         </state>
       </provider>
