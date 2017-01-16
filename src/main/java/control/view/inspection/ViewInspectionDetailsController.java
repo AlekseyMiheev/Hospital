@@ -76,7 +76,7 @@ public class ViewInspectionDetailsController implements Initializable {
     }
 
     private void setData() {
-        header.setText(header.getText() + " " + inspection.getId());
+        header.setText(header.getText() + " " + (inspection.getId() - 4));
         headerDate.setText(inspection.getDate());
 
         doctorName.setText(inspection.getDoctor().getName());
