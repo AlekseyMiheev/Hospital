@@ -99,6 +99,12 @@ public abstract class DBControl {
         return personsInspections;
     }
 
+    public static List<Inspection> getInspectionsByDiagnosis(Diagnosis diagnosis){
+        List<Inspection> personsInspections;
+        personsInspections = session.createCriteria(Inspection.class).add(Restrictions.eq("diagnosis", diagnosis)).list();
+        return personsInspections;
+    }
+
     public static List<Inspection> getInspectionsByDoctor(Doctor doctor){
         List<Inspection> doctorsInspections;
         doctorsInspections = session.createCriteria(Inspection.class).add(Restrictions.eq("doctor", doctor)).list();
