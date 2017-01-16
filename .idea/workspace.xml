@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="89e6f37e-9dab-45a2-8a45-bab34396c749" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/control/view/inspection/ViewInspectionTimeController.java" afterPath="$PROJECT_DIR$/src/main/java/control/view/inspection/ViewInspectionTimeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/inspection/showInspectionTime.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/inspection/showInspectionTime.fxml" />
     </list>
+=======
+    <list default="true" id="89e6f37e-9dab-45a2-8a45-bab34396c749" name="Default" comment="" />
+>>>>>>> master
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -346,7 +350,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
+=======
               <option name="myItemId" value="control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+>>>>>>> master
+              <option name="myItemId" value="control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,6 +414,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inspection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1255,6 +1296,7 @@
         <state relative-caret-position="1173">
           <caret line="70" column="34" lean-forward="true" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="49" />
           <folding>
+<<<<<<< HEAD
             <marker date="1484576347503" expanded="true" signature="793:4192" ph="..." />
             <marker date="1484576347503" expanded="true" signature="824:4075" ph="..." />
             <marker date="1484576347503" expanded="true" signature="991:1671" ph="..." />
@@ -1293,6 +1335,46 @@
             <marker date="1484576347503" expanded="true" signature="5660:5863" ph="..." />
             <marker date="1484576347503" expanded="true" signature="5702:5819" ph="..." />
             <marker date="1484576347503" expanded="true" signature="6077:6157" ph="..." />
+=======
+            <marker date="1484577468620" expanded="true" signature="793:4192" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="824:4075" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="991:1671" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="1029:1148" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="1185:1270" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="1309:1639" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="1382:1599" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="1425:1558" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="1774:3061" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="1813:2737" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="1911:2697" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="1958:2657" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="2025:2274" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="2076:2225" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="2361:2609" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="2412:2560" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="2774:2859" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="2897:3029" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="3141:3699" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="3179:3540" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="3577:3662" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="3898:4006" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="4100:4168" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="4344:4634" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="4383:4485" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="4513:4605" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="4706:5973" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="4747:5943" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="4784:5090" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="4823:5052" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="4890:5012" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="5124:5457" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="5187:5422" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="5265:5382" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="5494:5901" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="5660:5863" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="5702:5819" ph="..." />
+            <marker date="1484577468620" expanded="true" signature="6077:6157" ph="..." />
+>>>>>>> master
           </folding>
         </state>
       </provider>
