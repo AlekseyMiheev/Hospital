@@ -1,4 +1,4 @@
-package control.view;
+package control.view.diagnosis;
 
 import com.jfoenix.controls.JFXTextField;
 import entity.Diagnosis;
