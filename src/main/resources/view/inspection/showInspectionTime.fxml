@@ -10,19 +10,19 @@
 
 <VBox alignment="TOP_CENTER" spacing="10.0" VBox.vgrow="ALWAYS" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.view.inspection.ViewInspectionTimeController">
     <children>
-        <HBox alignment="CENTER_LEFT" spacing="10.0" style="-fx-background-color: white;" styleClass="VBox" stylesheets="@../main.css" VBox.vgrow="ALWAYS">
+        <HBox alignment="CENTER_LEFT" spacing="10.0" style="-fx-background-color: white;" styleClass="VBox" stylesheets="@../main.css">
             <children>
                 <JFXButton buttonType="RAISED" onAction="#search" style="-fx-background-color: #1976D2;" text="Search" textFill="WHITE">
                     <font>
                         <Font name="Roboto Bold" size="16.0" />
                     </font>
                 </JFXButton>
-                <JFXTextField fx:id="start_date" maxWidth="1.7976931348623157E308" minWidth="125.0" prefHeight="36.0" prefWidth="125.0" promptText="First date" HBox.hgrow="ALWAYS">
+                <JFXTextField fx:id="start_date" maxWidth="1.7976931348623157E308" prefHeight="36.0" promptText="First date" HBox.hgrow="ALWAYS">
                     <font>
                         <Font size="14.0" />
                     </font>
                 </JFXTextField>
-            <JFXTextField fx:id="end_date" maxWidth="1.7976931348623157E308" minWidth="125.0" prefHeight="36.0" promptText="Second date">
+            <JFXTextField fx:id="end_date" maxWidth="1.7976931348623157E308" prefHeight="36.0" promptText="Second date" HBox.hgrow="ALWAYS">
                <font>
                   <Font size="14.0" />
                </font>

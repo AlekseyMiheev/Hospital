@@ -70,7 +70,7 @@ public class ViewInspectionTimeController implements Initializable {
                 .addListener((observable, oldValue, newValue) -> showDetails(newValue));
     }
 
-    public void showDetails(Inspection inspection){
+    public void showDetails(Inspection inspection) {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/inspection/showInspectionDetails.fxml"));
             VBox root = loader.load();
@@ -81,20 +81,25 @@ public class ViewInspectionTimeController implements Initializable {
             primaryStage.setTitle("Inspection details");
             primaryStage.setScene(scene);
             primaryStage.show();
-        } catch (Exception ex) {}
+        } catch (Exception ex) {
+        }
     }
 
-    public void search() throws Exception{
+    public void search() throws Exception {
         if (start_date.getText().length() > 0) {
-            List<Inspection> searchResult = new ArrayList<Inspection>();
+            List<Inspection> searchResult = new ArrayList<>();
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
             LocalDate minDate;
             LocalDate maxDate;
             LocalDate currentDate;
 
             minDate = LocalDate.parse(start_date.getText(), formatter);
-            maxDate = LocalDate.parse(end_date.getText(), formatter);
-
+            if (end_date.getText().isEmpty()) {
+                maxDate = LocalDate.now();
+                end_date.setText(maxDate.format(formatter));
+            } else {
+                maxDate = LocalDate.parse(end_date.getText(), formatter);
+            }
             for (Inspection i : DBControl.inspections) {
                 currentDate = LocalDate.parse(i.getDate(), formatter);
                 if (currentDate.isAfter(minDate) && currentDate.isBefore(maxDate)) {
