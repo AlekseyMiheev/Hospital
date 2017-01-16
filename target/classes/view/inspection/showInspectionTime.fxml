@@ -17,12 +17,12 @@
                         <Font name="Roboto Bold" size="16.0" />
                     </font>
                 </JFXButton>
-                <JFXTextField fx:id="start_date" maxWidth="1.7976931348623157E308" minWidth="125.0" prefHeight="36.0" prefWidth="125.0" promptText="First date" HBox.hgrow="ALWAYS">
+                <JFXTextField fx:id="start_date" maxWidth="1.7976931348623157E308" prefHeight="36.0" promptText="First date" HBox.hgrow="ALWAYS">
                     <font>
                         <Font size="14.0" />
                     </font>
                 </JFXTextField>
-            <JFXTextField fx:id="end_date" maxWidth="1.7976931348623157E308" minWidth="125.0" prefHeight="36.0" promptText="Second date">
+            <JFXTextField fx:id="end_date" maxWidth="1.7976931348623157E308" prefHeight="36.0" promptText="Second date" HBox.hgrow="ALWAYS">
                <font>
                   <Font size="14.0" />
                </font>
