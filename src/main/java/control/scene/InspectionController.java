@@ -12,7 +12,7 @@ import java.io.IOException;
  */
 public class InspectionController {
 
-    private final String INSERT_LAYOUT_PATH = "/view/inspection/addInspection.fxml";
+    private final String INSERT_LAYOUT_PATH = "/view/inspection/createInspection.fxml";
     private final String VIEW_LAYOUT_PATH = "/view/inspection/showInspection.fxml";
     private final String VIEW_ADDITIONAL_LAYOUT_PATH = "/view/inspection/showInspectionTime.fxml";
 
