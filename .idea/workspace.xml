@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89e6f37e-9dab-45a2-8a45-bab34396c749" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/control/view/diagnosis/ViewDiagnosisController.class" afterPath="$PROJECT_DIR$/target/classes/control/view/diagnosis/ViewDiagnosisController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/control/view/diagnosis/ViewDiagnosisController.java" afterPath="$PROJECT_DIR$/src/main/java/control/view/diagnosis/ViewDiagnosisController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/view/inspection/showInspectionTime.fxml" afterPath="$PROJECT_DIR$/target/classes/view/inspection/showInspectionTime.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/control/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/control/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/control/view/inspection/ViewInspectionController.java" afterPath="$PROJECT_DIR$/src/main/java/control/view/inspection/ViewInspectionController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/view/inspection/showInspectionDetails.fxml" afterPath="$PROJECT_DIR$/src/main/resources/view/inspection/showInspectionDetails.fxml" />
     </list>
     <ignored path="Hospital.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +29,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ViewDiagnosisController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ViewDiagnosisController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/control/view/diagnosis/ViewDiagnosisController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="61" column="41" lean-forward="true" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+            <state relative-caret-position="479">
+              <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showInspectionDetails.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/view/inspection/showInspectionDetails.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="364" column="38" lean-forward="false" selection-start-line="364" selection-start-column="38" selection-end-line="364" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewInspectionController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/control/view/inspection/ViewInspectionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="75" column="41" lean-forward="true" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Searcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/Searcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="106" column="58" lean-forward="false" selection-start-line="106" selection-start-column="58" selection-end-line="106" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showDiagnosisInfo.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/view/diagnosis/showDiagnosisInfo.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -61,6 +116,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Inspe</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -74,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/control/view/client/ViewSpecialityInfoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/control/view/speciality/ViewSpecialityInfoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/control/view/client/ViewClientController.java" />
         <option value="$PROJECT_DIR$/src/main/java/control/view/speciality/ViewSpecialityController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/view/insert_layouts/addDepartment.fxml" />
@@ -100,12 +158,10 @@
         <option value="$PROJECT_DIR$/src/main/java/control/insert/AddHealingPlanController.java" />
         <option value="$PROJECT_DIR$/src/main/java/control/scene/HealingPlanController.java" />
         <option value="$PROJECT_DIR$/src/main/java/control/view/ViewHealingPlanController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Searcher.java" />
         <option value="$PROJECT_DIR$/src/main/resources/view/healing_plan/showHealingPlan.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/view/doctor/showDoctorInfo.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/view/department/showDepartmentInfo.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/view/client/showClientInfo.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/view/inspection/showInspectionDetails.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/view/speciality/showSpecialityInfo.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/view/main.fxml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -125,6 +181,10 @@
         <option value="$PROJECT_DIR$/src/main/java/control/view/inspection/ViewInspectionTimeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/control/view/diagnosis/ViewDiagnosisController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/control/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/view/inspection/showInspectionDetails.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/control/view/inspection/ViewInspectionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Searcher.java" />
       </list>
     </option>
   </component>
@@ -260,6 +320,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="inspection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hospital" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diagnosis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,41 +517,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="speciality" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hospital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diagnosis" />
+              <option name="myItemId" value="inspection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -948,13 +1004,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/Doctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/control/view/speciality/ViewSpecialityInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -1068,13 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Searcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="99" column="28" lean-forward="false" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1224,17 +1266,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/view/inspection/showInspectionDetails.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="356" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/view/inspection/createInspection.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3817">
@@ -1276,56 +1307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/view/diagnosis/showDiagnosisInfo.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="70" column="34" lean-forward="true" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="49" />
-          <folding>
-            <marker date="1484577468620" expanded="true" signature="793:4192" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="824:4075" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="991:1671" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="1029:1148" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="1185:1270" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="1309:1639" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="1382:1599" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="1425:1558" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="1774:3061" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="1813:2737" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="1911:2697" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="1958:2657" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="2025:2274" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="2076:2225" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="2361:2609" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="2412:2560" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="2774:2859" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="2897:3029" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="3141:3699" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="3179:3540" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="3577:3662" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="3898:4006" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="4100:4168" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="4344:4634" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="4383:4485" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="4513:4605" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="4706:5973" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="4747:5943" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="4784:5090" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="4823:5052" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="4890:5012" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="5124:5457" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="5187:5422" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="5265:5382" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="5494:5901" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="5660:5863" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="5702:5819" ph="..." />
-            <marker date="1484577468620" expanded="true" signature="6077:6157" ph="..." />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/ImageSaver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1354,22 +1335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/control/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/control/SplashScreenLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1388,6 +1353,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/control/view/diagnosis/ViewDiagnosisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/view/diagnosis/showDiagnosisInfo.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/control/view/speciality/ViewSpecialityController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1396,10 +1388,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/control/view/diagnosis/ViewDiagnosisController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/control/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="61" column="41" lean-forward="true" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+        <state relative-caret-position="323">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/view/inspection/showInspectionDetails.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="364" column="38" lean-forward="false" selection-start-line="364" selection-start-column="38" selection-end-line="364" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Searcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="106" column="58" lean-forward="false" selection-start-line="106" selection-start-column="58" selection-end-line="106" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/control/view/inspection/ViewInspectionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="75" column="41" lean-forward="true" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
           <folding />
         </state>
       </provider>

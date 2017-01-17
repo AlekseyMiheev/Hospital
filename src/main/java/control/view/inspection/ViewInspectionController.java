@@ -74,6 +74,7 @@ public class ViewInspectionController implements Initializable {
             Stage primaryStage = new Stage();
             primaryStage.setTitle("Inspection details");
             primaryStage.setScene(scene);
+            primaryStage.setMaximized(true);
             primaryStage.show();
         } catch (Exception ex) {}
     }
