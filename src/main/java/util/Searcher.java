@@ -115,4 +115,20 @@ public abstract class Searcher {
         return searchResult;
     }
 
+    public static List<Inspection> searchInspections(String search_info) {
+        List<Inspection> searchResult = new ArrayList<>();
+        if (!search_info.isEmpty()) {
+            for (Inspection i : DBControl.inspections) {
+                if (i.getDoctor().getName().contains(search_info) ||
+                        i.getClient().getName().contains(search_info)) {
+                    searchResult.add(i);
+                }
+            }
+        } else {
+            searchResult = DBControl.inspections;
+        }
+
+        return searchResult;
+    }
+
 }

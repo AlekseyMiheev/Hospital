@@ -14,6 +14,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import util.DBControl;
+import util.Searcher;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -64,7 +65,7 @@ public class ViewInspectionController implements Initializable {
                 .addListener((observable, oldValue, newValue) -> showDetails(newValue));
     }
 
-    public void showDetails(Inspection inspection){
+    public void showDetails(Inspection inspection) {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/inspection/showInspectionDetails.fxml"));
             VBox root = loader.load();
@@ -76,25 +77,13 @@ public class ViewInspectionController implements Initializable {
             primaryStage.setScene(scene);
             primaryStage.setMaximized(true);
             primaryStage.show();
-        } catch (Exception ex) {}
-    }
-
-    public void search() {
-        List<Inspection> searchResult = new ArrayList<Inspection>();
-        if (search_info.getText().length() > 0) {
-            for (Inspection i : DBControl.inspections) {
-                if (i.getDoctor().getName().equals(search_info.getText()) ||
-                        i.getClient().getName().equals(search_info.getText())) {
-                    searchResult.add(i);
-                }
-            }
-            inspections = FXCollections.observableArrayList(searchResult);
-            inspectionTable.setItems(inspections);
-        } else {
-            inspections = FXCollections.observableArrayList(DBControl.inspections);
-            inspectionTable.setItems(inspections);
+        } catch (Exception ex) {
         }
     }
 
-    //TODO: save to file
+    public void search() {
+        List<Inspection> searchResult = Searcher.searchInspections(search_info.getText());
+        inspections = FXCollections.observableArrayList(searchResult);
+        inspectionTable.setItems(inspections);
+    }
 }
