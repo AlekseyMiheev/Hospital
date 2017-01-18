@@ -68,7 +68,7 @@ public class ViewDoctorInfoController implements Initializable {
     public void setDoctor(Doctor doctor) {
         inspections = FXCollections.observableList(DBControl.getInspectionsByDoctor(doctor));
         inspectionTable.setItems(inspections);
-        header.setText(header.getText() + " " + doctor.getDoctorId());
+        header.setText(header.getText() + " " + (doctor.getDoctorId() - 14));
         name.setText(doctor.getName());
         speciality.setText(doctor.getSpeciality().getName());
         department.setText(doctor.getDepartment().getName());

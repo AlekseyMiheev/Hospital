@@ -1,11 +1,13 @@
 package control;
 
 import com.jfoenix.controls.*;
+import com.jfoenix.validation.RequiredFieldValidator;
 import javafx.concurrent.Task;
 import javafx.concurrent.WorkerStateEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.ProgressIndicator;
 import javafx.scene.layout.VBox;
@@ -15,14 +17,17 @@ import util.DBControl;
 import util.ThreadHelper;
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 
 /**
  * Created by Aleksey on 23.12.2016.
  */
-public class LoginController {
+public class LoginController implements Initializable {
 
     private static final String LOGIN = "test";
     private static final String PASSWORD = "admin";
+    private static final String INPUT_ERROR = "Input required";
 
     @FXML
     JFXTextField login;
@@ -35,6 +40,19 @@ public class LoginController {
 
     @FXML
     ProgressIndicator spin;
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        RequiredFieldValidator loginValidator = new RequiredFieldValidator();
+        RequiredFieldValidator passwordValidator = new RequiredFieldValidator();
+        loginValidator.setMessage(INPUT_ERROR);
+        passwordValidator.setMessage(INPUT_ERROR);
+        login.getValidators().add(loginValidator);
+        password.getValidators().add(passwordValidator);
+
+        login.focusedProperty().addListener((observable, oldValue, newValue) -> login.validate());
+        password.focusedProperty().addListener((observable, oldValue, newValue) -> password.validate());
+    }
 
     private Stage primaryStage;
 

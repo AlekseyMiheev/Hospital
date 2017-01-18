@@ -17,18 +17,11 @@ import util.DBControl;
 import util.Searcher;
 
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
-/**
- * Created by Aleksey on 20.12.2016.
- */
 public class ViewInspectionController implements Initializable {
 
-    /**
-     * Initializes the controller class.
-     */
     @FXML
     TableView<Inspection> inspectionTable;
 
@@ -65,7 +58,7 @@ public class ViewInspectionController implements Initializable {
                 .addListener((observable, oldValue, newValue) -> showDetails(newValue));
     }
 
-    public void showDetails(Inspection inspection) {
+    private void showDetails(Inspection inspection) {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/inspection/showInspectionDetails.fxml"));
             VBox root = loader.load();
@@ -78,6 +71,7 @@ public class ViewInspectionController implements Initializable {
             primaryStage.setMaximized(true);
             primaryStage.show();
         } catch (Exception ex) {
+            System.out.println(ex.toString());
         }
     }
 
